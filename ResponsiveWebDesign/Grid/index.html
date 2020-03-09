@@ -9,19 +9,23 @@
           height: 500px;
           display: flex;
           flex-direction: row-reverse;
-          justify-content: center;
+          justify-content: space-between;
         }
       
         #box-1 {
           background-color: dodgerblue;
-          width: 25%;
+          flex: 1 1 150px;
           height: 100%;
+          order: 1;
+          align-self: center;
         }
       
         #box-2 {
           background-color: orangered;
-          width: 25%;
+          flex: 2 2 250px;
           height: 100%;
+          order: 2;
+          align-self: flex-end;
         }
     </style>
 </head>
